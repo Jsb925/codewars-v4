@@ -85,6 +85,7 @@ def spread(pirate):
         return moveTo(x-1 , y-1 , pirate)
 
 def ActPirate(pirate):
+    """ 
     up = pirate.investigate_up()[0]
     down = pirate.investigate_down()[0]
     left = pirate.investigate_left()[0]
@@ -135,8 +136,8 @@ def ActPirate(pirate):
         return moveTo(x, y, pirate)
 
     else:
-        return spread(pirate)
-
+        return spread(pirate) """
+    return 0
 
 def ActTeam(team):
     l = team.trackPlayers()
